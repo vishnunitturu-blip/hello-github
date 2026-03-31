@@ -1,0 +1,534 @@
+Good. Your answers tell me exactly where you stand.
+
+Language: Java
+DSA: Zero experience
+Level: Beginner
+Time: 1 hour/day
+
+Now the brutal truth:
+1 hour per day is extremely tight if your target is 12–14 LPA. That level usually requires 500–700 coding problems + 3–4 solid projects.
+
+Example reality:
+
+Students cracking Amazon often solve 600+ problems on LeetCode.
+Students getting 10–15 LPA in companies like Flipkart usually build 2–3 strong full-stack projects.
+
+With 1 hour/day, you can still do it, but the timeline becomes longer and discipline must be perfect.
+
+Your Phase-1 Plan (Next 30 Days)
+
+Goal: Build coding foundation.
+
+You will only focus on 3 things.
+
+1. Java Problem Solving
+
+Topics:
+
+Week 1
+
+Input/output
+If-else
+Loops
+
+Week 2
+
+Functions
+Arrays
+
+Week 3
+
+Strings
+
+Week 4
+
+Basic recursion
+
+Examples of problems:
+
+Reverse a number
+Check palindrome
+Find largest element in array
+Count vowels in string
+2. Coding Platform
+
+Create account on:
+
+LeetCode
+HackerRank
+
+Daily target:
+2 problems per day
+
+Example:
+
+Day 1 → 2 problems
+Day 30 → 60 problems completed
+3. GitHub Discipline
+
+Use the GitHub you already created.
+
+Every day push code to
+GitHub.
+
+Example repo structure:
+
+java-dsa-journey
+   day01
+   day02
+   day03
+
+Recruiters like consistent commit history.
+
+Your 1-Hour Daily Routine
+
+Minute 0-15
+Learn concept.
+
+Example:
+
+arrays
+loops
+
+Minute 15-45
+Solve problems.
+
+Minute 45-60
+Push code to GitHub.
+
+Phase-2 (After 2 Months)
+
+Then we start real DSA.
+
+Topics:
+
+HashMap
+Stack
+Queue
+Linked List
+Trees
+Graphs
+Phase-3 (Projects)
+
+You will build 3 strong projects.
+
+Examples:
+
+Project 1
+AI Study Planner
+
+Project 2
+Full Stack Chat App
+
+Project 3
+Placement Tracker System
+
+Technologies:
+
+Spring Boot
+React
+Now I need to test your seriousness.
+
+Answer these 3 questions:
+
+1
+
+When will you start coding today?
+(Time)
+
+2
+
+Do you have Java installed on your laptop?
+
+3
+
+Where do you write code currently?
+
+VS Code
+IntelliJ
+Eclipse
+CodeTantra
+Other
+
+Answer these.
+Then I will give you your first 5 coding problems (Day-1 placement training).
+
+1.9pm -10 pm 2.yes 3.i have both vscode and intellij
+
+Good. Your setup is fine. Visual Studio Code and IntelliJ IDEA are both good for Java.
+For now, use IntelliJ because Java projects are easier to manage there.
+
+Now we start Day-1 training (9 PM – 10 PM).
+
+Do NOT skip steps. If you rush fundamentals, your DSA will collapse later.
+
+Day-1 Placement Training (Java Basics)
+Problem 1 – Reverse a Number
+
+Input: 1234
+Output: 4321
+
+Example 1
+
+Input: 456
+Output: 654
+
+Example 2
+
+Input: 908
+Output: 809
+
+Concept tested:
+
+loops
+modulus operator
+Problem 2 – Check Palindrome Number
+
+A number is palindrome if it reads same forward and backward.
+
+Example 1
+
+Input: 121
+Output: Palindrome
+
+Example 2
+
+Input: 123
+Output: Not Palindrome
+
+Concept tested:
+
+reverse logic
+comparison
+Problem 3 – Largest Element in Array
+
+Example 1
+
+Input: [3,7,2,9,5]
+Output: 9
+
+Example 2
+
+Input: [10,4,8,1]
+Output: 10
+
+Concept tested:
+
+arrays
+iteration
+Problem 4 – Count Digits in Number
+
+Example 1
+
+Input: 12345
+Output: 5
+
+Example 2
+
+Input: 9001
+Output: 4
+
+Concept tested:
+
+division
+loops
+Problem 5 – Count Vowels in String
+
+Example 1
+
+Input: "vishnu"
+Output: 2
+
+Example 2
+
+Input: "placement"
+Output: 3
+
+Concept tested:
+
+strings
+conditions
+Your 1-Hour Plan Today
+
+9:00 – 9:10
+Understand the problem.
+
+9:10 – 9:45
+Write code for all 5 problems.
+
+9:45 – 9:55
+Test with inputs.
+
+9:55 – 10:00
+Push to GitHub.
+
+Repository idea:
+
+java-placement-prep
+   day1
+      reverseNumber.java
+      palindrome.java
+      largestArray.java
+Important Rule
+
+From today:
+
+Every day you must send me:
+
+Problems solved
+Errors faced
+GitHub commit screenshot
+
+If you stay consistent 180 days, your level changes completely.
+
+One more thing I want to know before tomorrow's plan.
+
+Question
+
+Do you know Big-O time complexity?
+
+Answer only:
+
+Yes
+No
+
+(Be honest. If you lie here, your entire DSA training will fail.)
+
+i know nothing
+
+Good. That honesty helps. If you know nothing, we build the foundation correctly instead of pretending.
+
+First understand why this matters.
+
+Companies like Amazon or Microsoft don’t just check if your code works. They check how efficient it is. Two students may solve the same problem — the one with the faster algorithm gets the job.
+
+That’s where Big-O time complexity comes in.
+
+What Big-O Actually Means
+
+Big-O tells how fast your program grows when input grows.
+
+Example 1
+If a program checks 10 numbers, it may take 10 steps.
+If it checks 1000 numbers, it may take 1000 steps.
+
+Example 2
+Another program might compare every number with every other number.
+For 10 numbers → 100 operations
+For 1000 numbers → 1,000,000 operations
+
+Second program becomes extremely slow.
+
+The Most Important Complexities
+1. O(1) – Constant Time
+
+Execution time never changes.
+
+Example 1
+
+int x = arr[5];
+
+Example 2
+
+return arr[0];
+
+No matter if array has 10 elements or 1 million, time is same.
+
+2. O(n) – Linear Time
+
+Program runs once for each element.
+
+Example 1
+
+for(int i=0;i<n;i++){
+   System.out.println(arr[i]);
+}
+
+Example 2
+Finding largest number in array.
+
+You must check every element once.
+
+3. O(n²) – Quadratic Time
+
+Nested loops. Very slow when data grows.
+
+Example 1
+
+for(int i=0;i<n;i++){
+   for(int j=0;j<n;j++){
+      System.out.println(arr[i] + arr[j]);
+   }
+}
+
+Example 2
+Bubble sort algorithm.
+
+If n = 1000, operations ≈ 1,000,000.
+
+Why This Matters in Interviews
+
+Example problem: Find duplicate in array
+
+Student A solution
+Two loops → O(n²)
+
+Student B solution
+Using HashSet → O(n)
+
+Both correct.
+Company chooses Student B.
+
+Your Next Task (Before Tomorrow)
+
+Today still do the 5 problems I gave earlier.
+
+But add one more thing.
+
+For each program write a comment like this:
+
+Example
+
+// Time Complexity: O(n)
+
+Example 1
+Largest element in array → O(n)
+
+Example 2
+Reverse number → O(log n) (digits reduce each loop)
+
+Don't worry if you don't fully understand yet. We’ll train it daily.
+
+One Reality Check For You
+
+Right now your level is near zero in DSA.
+That’s normal for many students.
+
+But to reach 12–14 LPA, you must eventually reach:
+
+500+ problems solved
+Strong algorithm thinking
+3 good projects
+Clean GitHub profile
+Important Question (This decides your entire path)
+
+Your 4th semester just started. So placements are about 1.5–2 years away.
+
+I need to know your true situation.
+
+Answer honestly:
+
+Do companies visiting your college offer 10+ LPA packages, or mostly 3–5 LPA mass recruiters?
+Are you willing to prepare for off-campus placements also?
+
+Example companies students target off-campus:
+
+Google
+Atlassian
+
+Your answer changes the entire strategy I give you next.
+
+i am telling that in day 1 i know nothing 
+
+Good. That’s actually the correct starting point. Most students pretend they know something and then get destroyed in interviews. Starting from zero but honestly is better.
+
+So we reset your mindset.
+
+You are Day-1 beginner aiming for ₹12–14 LPA software role.
+That means we build skills in layers, not randomly.
+
+Companies like Amazon or Microsoft don’t test fancy tricks first. They test very simple logic problems but expect you to write them cleanly.
+
+Your Real Day-1 Goal
+
+Not “learning DSA”.
+Your goal is learning to think logically in code.
+
+So today we do only 3 problems, not 5. Quality matters more.
+
+Problem 1 — Reverse a Number
+
+Example 1
+Input: 1234
+Output: 4321
+
+Example 2
+Input: 9087
+Output: 7809
+
+What you must learn here:
+
+loop
+remainder %
+division /
+Problem 2 — Check Even or Odd
+
+Example 1
+Input: 8
+Output: Even
+
+Example 2
+Input: 13
+Output: Odd
+
+Concept:
+
+modulus operator
+Problem 3 — Largest Number in Array
+
+Example 1
+Input: [2,7,4,9]
+Output: 9
+
+Example 2
+Input: [11,3,6,1]
+Output: 11
+
+Concept:
+
+arrays
+loops
+comparison
+Your 1-Hour Routine (Tonight)
+
+9:00–9:10
+Understand the problems.
+
+9:10–9:50
+Write Java code in
+IntelliJ IDEA.
+
+9:50–10:00
+Upload to
+GitHub.
+
+Create repository like:
+
+java-placement-prep
+   day1
+      ReverseNumber.java
+      EvenOdd.java
+      LargestArray.java
+One rule from today
+
+Every day you will send me:
+
+Problems solved
+Code errors
+What confused you
+
+Then I upgrade your difficulty slowly.
+
+One thing I want to check about you (important)
+
+Since your target is ₹12–14 LPA, I need to know your coding speed mindset.
+
+Answer honestly:
+
+When coding becomes difficult, what do you usually do?
+
+Keep trying until it works
+Search solution immediately
+Leave the problem and move on
+
+This answer tells me whether you can survive real DSA training or not.
